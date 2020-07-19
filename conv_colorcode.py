@@ -20,7 +20,7 @@ for c in arr:
         print('invalid input')
         sys.exit()
 
-    # 16進数に変換 & 0埋め
+    # dec -> hex & 0 padding
     input_hex = format(input_num, 'x').zfill(2)
     color_code += input_hex
 
